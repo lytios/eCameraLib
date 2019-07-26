@@ -32,7 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'eCameraLib/Classes/**/*'
   
-  s.resource_bundles = 'eCameraLib/Assets/eCameraLib.bundle'
+  s.resource_bundles = {
+      'eCameraLib' => ['eCameraLib/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

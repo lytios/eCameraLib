@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,7 +13,6 @@
                 <outlet property="bottomView" destination="E6s-Xd-rLu" id="KDy-8S-Bwh"/>
                 <outlet property="cancelButton" destination="Jnu-mb-gAa" id="FUd-nP-cge"/>
                 <outlet property="cancelButtonAlignX" destination="OEc-Wv-M7X" id="dYI-sU-XaR"/>
-                <outlet property="changeCameraButton" destination="bYD-UO-mOG" id="Zuk-po-h7W"/>
                 <outlet property="dismissButton" destination="hPn-ln-Lt3" id="xh3-bd-FPI"/>
                 <outlet property="doneButton" destination="T2e-ke-dUV" id="vSO-Mb-eeu"/>
                 <outlet property="doneButtonAlignX" destination="7Ga-F5-4Eb" id="RMG-bi-dn8"/>
@@ -46,18 +44,6 @@
                         <constraint firstAttribute="width" constant="80" id="Zu4-eZ-vVc"/>
                     </constraints>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYD-UO-mOG">
-                    <rect key="frame" x="325" y="20" width="30" height="30"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="30" id="15J-ae-6Uq"/>
-                        <constraint firstAttribute="width" constant="30" id="xvo-jd-uzy"/>
-                    </constraints>
-                    <state key="normal" image="toggle_camera.png"/>
-                    <connections>
-                        <action selector="changeCameraButtonAction:" destination="-1" eventType="touchUpInside" id="j12-cu-5IM"/>
-                    </connections>
-                </button>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2e-ke-dUV">
                     <rect key="frame" x="157.5" y="524.5" width="60" height="60"/>
                     <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="0.9021832191780822" colorSpace="calibratedRGB"/>
@@ -120,14 +106,12 @@
                 <constraint firstAttribute="bottom" secondItem="hPn-ln-Lt3" secondAttribute="bottom" constant="100" id="QK3-WP-eyp"/>
                 <constraint firstItem="hPn-ln-Lt3" firstAttribute="centerY" secondItem="E6s-Xd-rLu" secondAttribute="centerY" id="Rv7-ja-jBT"/>
                 <constraint firstItem="Jnu-mb-gAa" firstAttribute="height" secondItem="T2e-ke-dUV" secondAttribute="height" id="Y0P-S7-oBq"/>
-                <constraint firstAttribute="trailing" secondItem="bYD-UO-mOG" secondAttribute="trailing" constant="20" id="grE-b1-iei"/>
                 <constraint firstItem="E6s-Xd-rLu" firstAttribute="height" secondItem="Jnu-mb-gAa" secondAttribute="height" id="kLd-tp-KG3"/>
                 <constraint firstItem="EXe-zr-F6O" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mDf-KH-8Uz"/>
                 <constraint firstItem="E6s-Xd-rLu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rON-Us-Q8g"/>
                 <constraint firstItem="E6s-Xd-rLu" firstAttribute="centerY" secondItem="Jnu-mb-gAa" secondAttribute="centerY" id="tqy-GK-fEa"/>
                 <constraint firstItem="EXe-zr-F6O" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="vLQ-th-Zvr"/>
                 <constraint firstItem="T2e-ke-dUV" firstAttribute="centerY" secondItem="Jnu-mb-gAa" secondAttribute="centerY" id="x3o-ZZ-ngz"/>
-                <constraint firstItem="bYD-UO-mOG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="zBP-Gf-Wnq"/>
             </constraints>
             <connections>
                 <outletCollection property="gestureRecognizers" destination="WNV-qx-VRS" appends="YES" id="7Vj-8G-4yf"/>
@@ -150,6 +134,5 @@
         <image name="focus.png" width="80" height="81"/>
         <image name="retake.png" width="30" height="30"/>
         <image name="takeok.png" width="30" height="30"/>
-        <image name="toggle_camera.png" width="30" height="30"/>
     </resources>
 </document>

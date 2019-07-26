@@ -7,7 +7,7 @@
 //
 
 #import "eCameraViewController.h"
-#import "eTakeCameraViewController.h"
+#import "testVCCameraViewController.h"
 @interface eCameraViewController ()
 
 @end
@@ -20,7 +20,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)takePic:(UIButton *)sender {
-    eTakeCameraViewController *cameraVc= [[eTakeCameraViewController alloc]init];
+
+    testVCCameraViewController *cameraVc= [[testVCCameraViewController alloc]initWithNibName:@"eTakeCameraViewController" bundle:eTakeCamerabundlePath];
     cameraVc.doneBlock = ^(UIImage * _Nonnull img) {
         
     };
