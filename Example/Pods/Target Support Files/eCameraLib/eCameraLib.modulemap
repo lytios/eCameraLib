@@ -1,0 +1,6 @@
+framework module eCameraLib {
+  umbrella header "eCameraLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

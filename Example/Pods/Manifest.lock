@@ -1,0 +1,16 @@
+PODS:
+  - eCameraLib (0.1.1)
+
+DEPENDENCIES:
+  - eCameraLib (from `../`)
+
+EXTERNAL SOURCES:
+  eCameraLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  eCameraLib: 7d0217a12e799b8a36c607c03fd372184367d012
+
+PODFILE CHECKSUM: 17de603ba7e7491555927333030df6a15f6c4d3b
+
+COCOAPODS: 1.6.1
