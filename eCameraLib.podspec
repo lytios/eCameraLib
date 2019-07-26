@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'eCameraLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of eCameraLib.'
+  s.summary          = '惠荣e分期配合拍照系列工具 需搭配类方法进行配置'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/24290265@qq.com/eCameraLib'
+  s.homepage         = 'https://github.com/lytios/eCameraLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '24290265@qq.com' => '24290265@qq.com' }
-  s.source           = { :git => 'https://github.com/24290265@qq.com/eCameraLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lytios/eCameraLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'eCameraLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'eCameraLib' => ['eCameraLib/Assets/*.png']
-  # }
+  s.resource_bundles = 'eCameraLib/Assets/eCameraLib.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

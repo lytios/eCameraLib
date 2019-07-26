@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EDB492F22E9AA580033557A /* eTakeCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB492D22E9AA580033557A /* eTakeCameraViewController.m */; };
+		3EDB493F22E9AF610033557A /* arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB493C22E9AF610033557A /* arrow_down@3x.png */; };
+		3EDB494122E9AF610033557A /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB493D22E9AF610033557A /* arrow_down@2x.png */; };
+		3EDB494522E9AF7A0033557A /* retake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB494222E9AF7A0033557A /* retake@2x.png */; };
+		3EDB494722E9AF7A0033557A /* retake@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB494322E9AF7A0033557A /* retake@3x.png */; };
+		3EDB494B22E9AF980033557A /* takeok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB494822E9AF980033557A /* takeok@2x.png */; };
+		3EDB494D22E9AF980033557A /* takeok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB494922E9AF980033557A /* takeok@3x.png */; };
+		3EDB495122E9AFB00033557A /* focus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB494E22E9AFB00033557A /* focus@3x.png */; };
+		3EDB495322E9AFB00033557A /* focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB494F22E9AFB00033557A /* focus@2x.png */; };
+		3EDB495722E9AFC20033557A /* toggle_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB495422E9AFC20033557A /* toggle_camera@2x.png */; };
+		3EDB495922E9AFC20033557A /* toggle_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB495522E9AFC20033557A /* toggle_camera@3x.png */; };
+		3EDB495B22EAB3CF0033557A /* eTakeCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB492E22E9AA580033557A /* eTakeCameraViewController.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -15,30 +27,29 @@
 		6003F59E195388D20070C39A /* eCameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* eCameraAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* eCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* eCameraViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		657F6219FC92D067A01692F0 /* Pods_eCameraLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D1C5B7A774A0685E3FD4AC /* Pods_eCameraLib_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7D522A329F8784DB938277B6 /* Pods_eCameraLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72674ED567B674F38E315D10 /* Pods_eCameraLib_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = eCameraLib;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0434DC003AE802065A8CB4D9 /* Pods-eCameraLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Example.release.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1DAC25ADA1F5966B010DB25C /* Pods-eCameraLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Tests/Pods-eCameraLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EDB492C22E9AA580033557A /* eTakeCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eTakeCameraViewController.h; sourceTree = "<group>"; };
+		3EDB492D22E9AA580033557A /* eTakeCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eTakeCameraViewController.m; sourceTree = "<group>"; };
+		3EDB492E22E9AA580033557A /* eTakeCameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = eTakeCameraViewController.xib; sourceTree = "<group>"; };
+		3EDB493522E9AB170033557A /* eCameraLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCameraLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDB493722E9AB170033557A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDB493C22E9AF610033557A /* arrow_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down@3x.png"; sourceTree = "<group>"; };
+		3EDB493D22E9AF610033557A /* arrow_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down@2x.png"; sourceTree = "<group>"; };
+		3EDB494222E9AF7A0033557A /* retake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retake@2x.png"; sourceTree = "<group>"; };
+		3EDB494322E9AF7A0033557A /* retake@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retake@3x.png"; sourceTree = "<group>"; };
+		3EDB494822E9AF980033557A /* takeok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takeok@2x.png"; sourceTree = "<group>"; };
+		3EDB494922E9AF980033557A /* takeok@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takeok@3x.png"; sourceTree = "<group>"; };
+		3EDB494E22E9AFB00033557A /* focus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus@3x.png"; sourceTree = "<group>"; };
+		3EDB494F22E9AFB00033557A /* focus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus@2x.png"; sourceTree = "<group>"; };
+		3EDB495422E9AFC20033557A /* toggle_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toggle_camera@2x.png"; sourceTree = "<group>"; };
+		3EDB495522E9AFC20033557A /* toggle_camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toggle_camera@3x.png"; sourceTree = "<group>"; };
 		5F4E297819B4B9CA6910A1F9 /* Pods-eCameraLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Tests/Pods-eCameraLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* eCameraLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCameraLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,7 +64,6 @@
 		6003F5A5195388D20070C39A /* eCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eCameraViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* eCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eCameraViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* eCameraLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCameraLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -62,14 +72,21 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72674ED567B674F38E315D10 /* Pods_eCameraLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCameraLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E1A6E7FC1CF702AF38778F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9E1A6E7FC1CF702AF38778F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C6D1C5B7A774A0685E3FD4AC /* Pods_eCameraLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCameraLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9140B1CA4AFE036E9D0EC9D /* Pods-eCameraLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F1C1C3B353754282195CA4F5 /* eCameraLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = eCameraLib.podspec; path = ../eCameraLib.podspec; sourceTree = "<group>"; };
-		F3CBE2883B2CA7EC09D0234F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F1C1C3B353754282195CA4F5 /* eCameraLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = eCameraLib.podspec; path = ../eCameraLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3CBE2883B2CA7EC09D0234F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3EDB493222E9AB170033557A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,26 +98,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7D522A329F8784DB938277B6 /* Pods_eCameraLib_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EDB493622E9AB170033557A /* eCameraLib */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB493722E9AB170033557A /* Info.plist */,
+			);
+			path = eCameraLib;
+			sourceTree = "<group>";
+		};
+		3EDB493B22E9AF4C0033557A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB495422E9AFC20033557A /* toggle_camera@2x.png */,
+				3EDB495522E9AFC20033557A /* toggle_camera@3x.png */,
+				3EDB494F22E9AFB00033557A /* focus@2x.png */,
+				3EDB494E22E9AFB00033557A /* focus@3x.png */,
+				3EDB494822E9AF980033557A /* takeok@2x.png */,
+				3EDB494922E9AF980033557A /* takeok@3x.png */,
+				3EDB494222E9AF7A0033557A /* retake@2x.png */,
+				3EDB494322E9AF7A0033557A /* retake@3x.png */,
+				3EDB493D22E9AF610033557A /* arrow_down@2x.png */,
+				3EDB493C22E9AF610033557A /* arrow_down@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				3EDB493B22E9AF4C0033557A /* resource */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for eCameraLib */,
 				6003F5B5195388D20070C39A /* Tests */,
+				3EDB493622E9AB170033557A /* eCameraLib */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				7E69C91A77CD113457D971A0 /* Pods */,
@@ -111,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* eCameraLib_Example.app */,
-				6003F5AE195388D20070C39A /* eCameraLib_Tests.xctest */,
+				3EDB493522E9AB170033557A /* eCameraLib.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +165,9 @@
 		6003F593195388D20070C39A /* Example for eCameraLib */ = {
 			isa = PBXGroup;
 			children = (
+				3EDB492C22E9AA580033557A /* eTakeCameraViewController.h */,
+				3EDB492D22E9AA580033557A /* eTakeCameraViewController.m */,
+				3EDB492E22E9AA580033557A /* eTakeCameraViewController.xib */,
 				6003F59C195388D20070C39A /* eCameraAppDelegate.h */,
 				6003F59D195388D20070C39A /* eCameraAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,13 +229,29 @@
 				1DAC25ADA1F5966B010DB25C /* Pods-eCameraLib_Tests.debug.xcconfig */,
 				5F4E297819B4B9CA6910A1F9 /* Pods-eCameraLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3EDB493422E9AB170033557A /* eCameraLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDB493822E9AB170033557A /* Build configuration list for PBXNativeTarget "eCameraLib" */;
+			buildPhases = (
+				3EDB493122E9AB170033557A /* Sources */,
+				3EDB493222E9AB170033557A /* Frameworks */,
+				3EDB493322E9AB170033557A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eCameraLib;
+			productName = eCameraLib;
+			productReference = 3EDB493522E9AB170033557A /* eCameraLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		6003F589195388D20070C39A /* eCameraLib_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "eCameraLib_Example" */;
@@ -219,25 +271,6 @@
 			productReference = 6003F58A195388D20070C39A /* eCameraLib_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* eCameraLib_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "eCameraLib_Tests" */;
-			buildPhases = (
-				EFBF9A4D1D62C17773BB7A9F /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
-			);
-			name = eCameraLib_Tests;
-			productName = eCameraLibTests;
-			productReference = 6003F5AE195388D20070C39A /* eCameraLib_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -248,8 +281,14 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "24290265@qq.com";
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					3EDB493422E9AB170033557A = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = NK8FK7ZWZ7;
+						ProvisioningStyle = Manual;
+					};
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 335X85BJF8;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -267,28 +306,38 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* eCameraLib_Example */,
-				6003F5AD195388D20070C39A /* eCameraLib_Tests */,
+				3EDB493422E9AB170033557A /* eCameraLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3EDB493322E9AB170033557A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDB494122E9AF610033557A /* arrow_down@2x.png in Resources */,
+				3EDB495322E9AFB00033557A /* focus@2x.png in Resources */,
+				3EDB493F22E9AF610033557A /* arrow_down@3x.png in Resources */,
+				3EDB494522E9AF7A0033557A /* retake@2x.png in Resources */,
+				3EDB494722E9AF7A0033557A /* retake@3x.png in Resources */,
+				3EDB495722E9AFC20033557A /* toggle_camera@2x.png in Resources */,
+				3EDB495122E9AFB00033557A /* focus@3x.png in Resources */,
+				3EDB494D22E9AF980033557A /* takeok@3x.png in Resources */,
+				3EDB495922E9AFC20033557A /* toggle_camera@3x.png in Resources */,
+				3EDB494B22E9AF980033557A /* takeok@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDB495B22EAB3CF0033557A /* eTakeCameraViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,58 +388,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EFBF9A4D1D62C17773BB7A9F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-eCameraLib_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3EDB493122E9AB170033557A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDB492F22E9AA580033557A /* eTakeCameraViewController.m in Sources */,
 				6003F59E195388D20070C39A /* eCameraAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* eCameraViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* eCameraLib_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
@@ -420,6 +439,93 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3EDB493922E9AB170033557A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NK8FK7ZWZ7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = eCameraLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanmai.hrfaxsix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3EDB493A22E9AB170033557A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = eCameraLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanmai.hrfaxsix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,12 +604,15 @@
 			baseConfigurationReference = E9140B1CA4AFE036E9D0EC9D /* Pods-eCameraLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 335X85BJF8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eCameraLib/eCameraLib-Prefix.pch";
 				INFOPLIST_FILE = "eCameraLib/eCameraLib-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanmai.hrfaxsix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "XC WildcardDEV";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -514,66 +623,32 @@
 			baseConfigurationReference = 0434DC003AE802065A8CB4D9 /* Pods-eCameraLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 335X85BJF8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eCameraLib/eCameraLib-Prefix.pch";
 				INFOPLIST_FILE = "eCameraLib/eCameraLib-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanmai.hrfaxsix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "XC WildcardDEV";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DAC25ADA1F5966B010DB25C /* Pods-eCameraLib_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eCameraLib_Example.app/eCameraLib_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4E297819B4B9CA6910A1F9 /* Pods-eCameraLib_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eCameraLib_Example.app/eCameraLib_Example";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3EDB493822E9AB170033557A /* Build configuration list for PBXNativeTarget "eCameraLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDB493922E9AB170033557A /* Debug */,
+				3EDB493A22E9AB170033557A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "eCameraLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -588,15 +663,6 @@
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
 				6003F5C1195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "eCameraLib_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
