@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EBE34AD22F01AE30037B268 /* eTakeCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE34AC22F01AE30037B268 /* eTakeCameraViewController.m */; };
 		3ECF84C722EADE48004E16BB /* eTakeCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF84C622EADE48004E16BB /* eTakeCameraViewController.xib */; };
 		3EDB498622EAB72E0033557A /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB497C22EAB72E0033557A /* arrow_down@2x.png */; };
 		3EDB498722EAB72E0033557A /* arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB497D22EAB72E0033557A /* arrow_down@3x.png */; };
@@ -39,8 +40,8 @@
 /* Begin PBXFileReference section */
 		0434DC003AE802065A8CB4D9 /* Pods-eCameraLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Example.release.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1DAC25ADA1F5966B010DB25C /* Pods-eCameraLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Tests/Pods-eCameraLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E46A96122EAFB8C0024DA23 /* eTakeCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eTakeCameraViewController.h; sourceTree = "<group>"; };
-		3E46A96222EAFB8C0024DA23 /* eTakeCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eTakeCameraViewController.m; sourceTree = "<group>"; };
+		3EBE34AB22F01AE20037B268 /* eTakeCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eTakeCameraViewController.h; sourceTree = "<group>"; };
+		3EBE34AC22F01AE30037B268 /* eTakeCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eTakeCameraViewController.m; sourceTree = "<group>"; };
 		3ECF84C622EADE48004E16BB /* eTakeCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = eTakeCameraViewController.xib; path = ../../eCameraLib/Assets/eTakeCameraViewController.xib; sourceTree = "<group>"; };
 		3EDB493522E9AB170033557A /* eCameraLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCameraLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDB493722E9AB170033557A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -187,8 +188,8 @@
 		6003F593195388D20070C39A /* Example for eCameraLib */ = {
 			isa = PBXGroup;
 			children = (
-				3E46A96122EAFB8C0024DA23 /* eTakeCameraViewController.h */,
-				3E46A96222EAFB8C0024DA23 /* eTakeCameraViewController.m */,
+				3EBE34AB22F01AE20037B268 /* eTakeCameraViewController.h */,
+				3EBE34AC22F01AE30037B268 /* eTakeCameraViewController.m */,
 				3EDB499E22EAC78A0033557A /* customImg */,
 				3EDB499B22EAC7570033557A /* testVCCameraViewController.h */,
 				3EDB499C22EAC7570033557A /* testVCCameraViewController.m */,
@@ -432,6 +433,7 @@
 			files = (
 				3EDB499D22EAC7570033557A /* testVCCameraViewController.m in Sources */,
 				6003F59E195388D20070C39A /* eCameraAppDelegate.m in Sources */,
+				3EBE34AD22F01AE30037B268 /* eTakeCameraViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* eCameraViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
