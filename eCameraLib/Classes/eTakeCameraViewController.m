@@ -95,7 +95,7 @@
 //照片输出流对象
 @property (nonatomic, strong) AVCaptureStillImageOutput *imageOutPut;
 //拍照的照片
-@property (nonatomic, strong) UIImage *takedImage;
+@property (nonatomic, strong ,readwrite) UIImage *takedImage;
 
 
 //设备方向
@@ -156,7 +156,12 @@
 - (void)willResignActive
 {
     if ([self.session isRunning]) {
-        [self dismissViewControllerAnimated:YES completion:nil];
+        if (self.presentationController) {
+            [self dismissViewControllerAnimated:YES completion:nil];
+        }else{
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+        
     }
 }
 
@@ -341,16 +346,30 @@
 }
 
 - (IBAction)dismissButtonAction:(UIButton *)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    if (self.presentationController) {
+         [self dismissViewControllerAnimated:YES completion:nil];
+    }else{
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+    
+   
 }
 
 - (void)PhotographsCompleted
 {
-    [self dismissViewControllerAnimated:YES completion:^{
+    if (self.presentationController) {
+        [self dismissViewControllerAnimated:YES completion:^{
+            if (self.doneBlock) {
+                self.doneBlock(self.takedImage);
+            }
+        }];
+    }else{
         if (self.doneBlock) {
             self.doneBlock(self.takedImage);
         }
-    }];
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+    
 }
 
 //设置聚焦光标位置
@@ -433,7 +452,12 @@
             [[UIApplication sharedApplication] openURL:url];
         }
     }else{
-        [self dismissViewControllerAnimated:YES completion:nil];
+        if (self.presentationController) {
+            [self dismissViewControllerAnimated:YES completion:nil];
+        }else{
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+        
     }
 }
 @end

@@ -17,10 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface eTakeCameraViewController : UIViewController
 
+@property (nonatomic, strong ,readonly) UIImage *takedImage;
 
 @property (nonatomic,copy) void (^doneBlock)(UIImage *img);
 
 @property (nonatomic, strong ,readonly) UIImageView *takedImageView;
+
 - (void)takPicture;
 
 - (void)PhotographsCompleted;
