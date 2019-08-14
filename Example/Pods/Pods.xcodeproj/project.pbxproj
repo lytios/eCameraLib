@@ -7,29 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0611E6EBB2CE93A303945DCA8552873C /* Pods-eCameraLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F687DE7C8361B057DB638E5F714A1F6B /* Pods-eCameraLib_Example-dummy.m */; };
 		106F68740D414AA33785A83F38787641 /* arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6CCCC77964BAB29FDE3CB3D19F4464 /* arrow_down@3x.png */; };
 		2DC83A1EAB88E1B31B06060BAAD48F95 /* retake@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCF787DAB0D85BA16836A3C5035295B /* retake@3x.png */; };
+		31FC699BE919800B585604E13745F815 /* DQAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163E87D07551259150C41861DFD55C2 /* DQAlertView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		379E91EE8E4A85C0D2C996890DF71B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		550CAAAD3415DAAE123A037D916CA11E /* takeok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA7BD4422C462C53BC20BC7B2EBCCFF /* takeok@2x.png */; };
-		5CB417A4FF21061F2E25AACC56F88DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		5DC01A8FF9E31D02850B07C938B6F76A /* toggle_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8579EDC8EE2950C361BE667066B40F7F /* toggle_camera@3x.png */; };
-		7A0F1BA17A8A068A14C807598F596568 /* Pods-eCameraLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F11DBE36B4EE3FE2382E8D5122D787CE /* Pods-eCameraLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C5269F0A8A761EF882875FFD8FB6D65 /* Pods-eCameraLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F11DBE36B4EE3FE2382E8D5122D787CE /* Pods-eCameraLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E1EB0A25DF055E58A8B614BF44119C6 /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A1DDB4407331A8B3BD39E0A8474E4 /* arrow_down@2x.png */; };
-		7FC042BA3AEB1A495539FFED6546F7FE /* eCameraLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17F980EFFD0B1774BEE98C6F979740BE /* eCameraLib.bundle */; };
+		7FC042BA3AEB1A495539FFED6546F7FE /* eCameraLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A26AFB0F9F0265168EC830928D2A470A /* eCameraLib.bundle */; };
 		82F06B81E46171417DBE73A06E0C6FE1 /* eTakeCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CE194F9DB900F0A55711C98DF9E4EEE /* eTakeCameraViewController.xib */; };
 		93B760E3AD9F4E40E64D284B5B5340DE /* eTakeCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DE2C67632426689CC751448B28A700 /* eTakeCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFE56331A7BE77428B054520E01265C0 /* toggle_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5F543EDBC858784E3B4F3D83BBC36E /* toggle_camera@2x.png */; };
 		C259F80D9A133BA563BC05CF9A47A252 /* eCameraLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D544120ACBCBA9A82DA4C89654079DD /* eCameraLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3011D948C6773B7E1F82E3691A95CE0 /* DQAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB1E86FAEFB1C0DC6454A5D38F106B5 /* DQAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82082DCF47454908AE4871047399631 /* Pods-eCameraLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F687DE7C8361B057DB638E5F714A1F6B /* Pods-eCameraLib_Example-dummy.m */; };
+		CAB44452F1CBE0902E0D6F87E89178AE /* DQAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1960541337BB114D30432237D8C07A76 /* DQAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D115458B4F6C38B19E25D460F9D404FE /* takeok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72472BC52688B08E4F46406BB1AB922E /* takeok@3x.png */; };
 		D1872047B5B8A69B8C0C597C96B2987E /* eTakeCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584009B773C1ED21E2799631B121ED2D /* eTakeCameraViewController.m */; };
+		DBF8D644A3BE6B33306DB9F2E8ACE880 /* DQAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209C6EB36C2FE4368489133B32FC42DA /* DQAlertView-dummy.m */; };
 		DD5D11A3B5E9F8FF7723C934C097EA46 /* focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B0BEE16308994018497D94964435FB /* focus@2x.png */; };
 		E5B2E0DCB89EC2A9799E5E6D5EEDBADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		EBA55226D381F4D2025181F126F35738 /* focus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3929BE1255B66ADBBC4A7001AD8730 /* focus@3x.png */; };
 		EC558CDBF43882248620E2662A86D828 /* retake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 732A2C6A36842E758125C3C6B48BC8CE /* retake@2x.png */; };
 		F57FC23EBA71DD98CC7C1153E48DD566 /* eCameraLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 734F9C8B46D9CE90ED25E9761A5DAD66 /* eCameraLib-dummy.m */; };
+		FA182FEC27D11CD9B846438EFC88568C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3A717D066CB79FAB77E0F527D28724AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B47B0ADD46D34168495AE11C3822DE25;
+			remoteInfo = DQAlertView;
+		};
+		3D83F1B3341677B2F1DD0581B905EE07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133F2DCBD334A0B8DD0D25D0ABFF42E2;
+			remoteInfo = eCameraLib;
+		};
 		672F9FD28777D64BF85218AF557208CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -37,23 +56,22 @@
 			remoteGlobalIDString = A1ABC79F313570B0B9352500A6ACDC49;
 			remoteInfo = "eCameraLib-eCameraLib";
 		};
-		E8E743E802F8A175F554CA34968FDBD8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 133F2DCBD334A0B8DD0D25D0ABFF42E2;
-			remoteInfo = eCameraLib;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A3929BE1255B66ADBBC4A7001AD8730 /* focus@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "focus@3x.png"; path = "eCameraLib/Assets/focus@3x.png"; sourceTree = "<group>"; };
-		17F980EFFD0B1774BEE98C6F979740BE /* eCameraLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = eCameraLib.bundle; path = "eCameraLib-eCameraLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1163E87D07551259150C41861DFD55C2 /* DQAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DQAlertView.m; path = DQAlertView/DQAlertView.m; sourceTree = "<group>"; };
+		14AD047ED5C02B45C4B663F7B007FDFC /* eCameraLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = eCameraLib.framework; path = eCameraLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1960541337BB114D30432237D8C07A76 /* DQAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DQAlertView.h; path = DQAlertView/DQAlertView.h; sourceTree = "<group>"; };
 		1B415A102B919966C02CBF8FE2541E04 /* Pods-eCameraLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eCameraLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		209C6EB36C2FE4368489133B32FC42DA /* DQAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DQAlertView-dummy.m"; sourceTree = "<group>"; };
+		2D19D857922D0E576BC8048E33AC95D0 /* DQAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DQAlertView.framework; path = DQAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6CCCC77964BAB29FDE3CB3D19F4464 /* arrow_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@3x.png"; path = "eCameraLib/Assets/arrow_down@3x.png"; sourceTree = "<group>"; };
+		34DBA1D2D2EB1275C836CACFBB393017 /* DQAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DQAlertView.xcconfig; sourceTree = "<group>"; };
 		3592DEB2380487DD86D1E18C5DA8A2FB /* eCameraLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "eCameraLib-prefix.pch"; sourceTree = "<group>"; };
 		361DCA1E7C516426CA89AA3E976525B7 /* eCameraLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = eCameraLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		38DE2C67632426689CC751448B28A700 /* eTakeCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eTakeCameraViewController.h; path = eCameraLib/Classes/eTakeCameraViewController.h; sourceTree = "<group>"; };
+		3DD0A34C02D5F5CD2D3719AC8473D3D1 /* Pods_eCameraLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_eCameraLib_Example.framework; path = "Pods-eCameraLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		559BB2B5A50FA96F2EDDBC99E6C31BF5 /* Pods-eCameraLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eCameraLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		584009B773C1ED21E2799631B121ED2D /* eTakeCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = eTakeCameraViewController.m; path = eCameraLib/Classes/eTakeCameraViewController.m; sourceTree = "<group>"; };
 		595121736DAFA460E09EB3A610A70EE1 /* Pods-eCameraLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eCameraLib_Example-Info.plist"; sourceTree = "<group>"; };
@@ -61,6 +79,7 @@
 		5DEE8C6FB463CA2C16A3D1B9E118A5C8 /* Pods-eCameraLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eCameraLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		683E7708074716A7A2D2783664171B2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6CE194F9DB900F0A55711C98DF9E4EEE /* eTakeCameraViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = eTakeCameraViewController.xib; path = eCameraLib/Assets/eTakeCameraViewController.xib; sourceTree = "<group>"; };
+		6FB1E86FAEFB1C0DC6454A5D38F106B5 /* DQAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQAlertView-umbrella.h"; sourceTree = "<group>"; };
 		72472BC52688B08E4F46406BB1AB922E /* takeok@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "takeok@3x.png"; path = "eCameraLib/Assets/takeok@3x.png"; sourceTree = "<group>"; };
 		732A2C6A36842E758125C3C6B48BC8CE /* retake@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "retake@2x.png"; path = "eCameraLib/Assets/retake@2x.png"; sourceTree = "<group>"; };
 		734F9C8B46D9CE90ED25E9761A5DAD66 /* eCameraLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "eCameraLib-dummy.m"; sourceTree = "<group>"; };
@@ -71,10 +90,10 @@
 		89B0BEE16308994018497D94964435FB /* focus@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "focus@2x.png"; path = "eCameraLib/Assets/focus@2x.png"; sourceTree = "<group>"; };
 		8AD48ACCD62E5A6B74869CC5E24A8E29 /* ResourceBundle-eCameraLib-eCameraLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-eCameraLib-eCameraLib-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A26AFB0F9F0265168EC830928D2A470A /* eCameraLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = eCameraLib.bundle; path = "eCameraLib-eCameraLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE5F543EDBC858784E3B4F3D83BBC36E /* toggle_camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toggle_camera@2x.png"; path = "eCameraLib/Assets/toggle_camera@2x.png"; sourceTree = "<group>"; };
-		D11658470A4D09150E9B872E4C4620B0 /* eCameraLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = eCameraLib.framework; path = eCameraLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9306134AA76C84E6462BFB930624B25 /* Pods_eCameraLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_eCameraLib_Example.framework; path = "Pods-eCameraLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD17380D9C75EBE420A19FA3534D2E /* DQAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQAlertView-prefix.pch"; sourceTree = "<group>"; };
 		DDA7BD4422C462C53BC20BC7B2EBCCFF /* takeok@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "takeok@2x.png"; path = "eCameraLib/Assets/takeok@2x.png"; sourceTree = "<group>"; };
 		DFCF787DAB0D85BA16836A3C5035295B /* retake@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "retake@3x.png"; path = "eCameraLib/Assets/retake@3x.png"; sourceTree = "<group>"; };
 		E21A424FE0B85BEA82CB4C5F8B20DDB7 /* eCameraLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "eCameraLib-Info.plist"; sourceTree = "<group>"; };
@@ -82,7 +101,9 @@
 		EBD08B2C8E439B47B04EB83D50127876 /* eCameraLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eCameraLib.xcconfig; sourceTree = "<group>"; };
 		F11DBE36B4EE3FE2382E8D5122D787CE /* Pods-eCameraLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eCameraLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		F131729FA75EE431D5FEEF88A76AF300 /* Pods-eCameraLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-eCameraLib_Example.modulemap"; sourceTree = "<group>"; };
+		F2439352D5438B236E4AB9311D83C700 /* DQAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DQAlertView-Info.plist"; sourceTree = "<group>"; };
 		F687DE7C8361B057DB638E5F714A1F6B /* Pods-eCameraLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eCameraLib_Example-dummy.m"; sourceTree = "<group>"; };
+		F83C417DC56CFE22C8D0C63F8089FD23 /* DQAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DQAlertView.modulemap; sourceTree = "<group>"; };
 		FD6343C31454B646F84AA81135EFBFD6 /* Pods-eCameraLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eCameraLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,11 +116,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88BB72D591EBD0BE5D8275FD692FD2CF /* Frameworks */ = {
+		547F42F0EF8C3835DE3209C84C9CFE93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB417A4FF21061F2E25AACC56F88DDE /* Foundation.framework in Frameworks */,
+				FA182FEC27D11CD9B846438EFC88568C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +128,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2BC165A9E9F4CD1A91F161B06D017D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379E91EE8E4A85C0D2C996890DF71B1F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,14 +171,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		862A3D46F4CE1F9C23409B085C88B8E4 /* Products */ = {
+		6E4F0DF0A4F57CCBE3A82525273158AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				17F980EFFD0B1774BEE98C6F979740BE /* eCameraLib.bundle */,
-				D11658470A4D09150E9B872E4C4620B0 /* eCameraLib.framework */,
-				D9306134AA76C84E6462BFB930624B25 /* Pods_eCameraLib_Example.framework */,
+				F83C417DC56CFE22C8D0C63F8089FD23 /* DQAlertView.modulemap */,
+				34DBA1D2D2EB1275C836CACFBB393017 /* DQAlertView.xcconfig */,
+				209C6EB36C2FE4368489133B32FC42DA /* DQAlertView-dummy.m */,
+				F2439352D5438B236E4AB9311D83C700 /* DQAlertView-Info.plist */,
+				CEBD17380D9C75EBE420A19FA3534D2E /* DQAlertView-prefix.pch */,
+				6FB1E86FAEFB1C0DC6454A5D38F106B5 /* DQAlertView-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/DQAlertView";
 			sourceTree = "<group>";
 		};
 		985421799D34D06F47E3CA99BC233430 /* Resources */ = {
@@ -195,6 +228,14 @@
 			path = "Target Support Files/Pods-eCameraLib_Example";
 			sourceTree = "<group>";
 		};
+		A85978F1E3F12F9CEA164F76237F8F98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2A41D2D5262FE7FCDAD7C4BC6DC58 /* DQAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C511FEAF47EF3736003CCCAE682E04EC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,7 +252,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1CAFB652FFD823AA22998FDF398FCC16 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				862A3D46F4CE1F9C23409B085C88B8E4 /* Products */,
+				A85978F1E3F12F9CEA164F76237F8F98 /* Pods */,
+				EE1634C80CADD4E03A63EA8BD2BAADC7 /* Products */,
 				57D89B014C721D76B1AA48F4AE686D96 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -222,6 +264,28 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE1634C80CADD4E03A63EA8BD2BAADC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D19D857922D0E576BC8048E33AC95D0 /* DQAlertView.framework */,
+				A26AFB0F9F0265168EC830928D2A470A /* eCameraLib.bundle */,
+				14AD047ED5C02B45C4B663F7B007FDFC /* eCameraLib.framework */,
+				3DD0A34C02D5F5CD2D3719AC8473D3D1 /* Pods_eCameraLib_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C2A41D2D5262FE7FCDAD7C4BC6DC58 /* DQAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1960541337BB114D30432237D8C07A76 /* DQAlertView.h */,
+				1163E87D07551259150C41861DFD55C2 /* DQAlertView.m */,
+				6E4F0DF0A4F57CCBE3A82525273158AC /* Support Files */,
+			);
+			name = DQAlertView;
+			path = DQAlertView;
 			sourceTree = "<group>";
 		};
 		F4FBCE3F8BC1645BEA7A03A88AB1E682 /* Support Files */ = {
@@ -242,11 +306,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		721F69723E3C63020A9F0A25C123BE3E /* Headers */ = {
+		43C159414871F8D89E8FAA8FD1B0C8F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0F1BA17A8A068A14C807598F596568 /* Pods-eCameraLib_Example-umbrella.h in Headers */,
+				C3011D948C6773B7E1F82E3691A95CE0 /* DQAlertView-umbrella.h in Headers */,
+				CAB44452F1CBE0902E0D6F87E89178AE /* DQAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2758C07B0557B53D302F75A6911D3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5269F0A8A761EF882875FFD8FB6D65 /* Pods-eCameraLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,26 +351,27 @@
 			);
 			name = eCameraLib;
 			productName = eCameraLib;
-			productReference = D11658470A4D09150E9B872E4C4620B0 /* eCameraLib.framework */;
+			productReference = 14AD047ED5C02B45C4B663F7B007FDFC /* eCameraLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		70B978C84C14BB74E9F19260F7C1E8CC /* Pods-eCameraLib_Example */ = {
+		48FFE3AE7EDB781B0F8CFBD11234F364 /* Pods-eCameraLib_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2ADCAF6F948AB11FDF80690F43156DB4 /* Build configuration list for PBXNativeTarget "Pods-eCameraLib_Example" */;
+			buildConfigurationList = 8E0CA824BB64EA8B2899290CEFC9AE45 /* Build configuration list for PBXNativeTarget "Pods-eCameraLib_Example" */;
 			buildPhases = (
-				721F69723E3C63020A9F0A25C123BE3E /* Headers */,
-				18512ED7F8215692FACEDAE98F1B612E /* Sources */,
-				88BB72D591EBD0BE5D8275FD692FD2CF /* Frameworks */,
-				4A984BF31DC37B46186828FCCAE8F0F2 /* Resources */,
+				D2758C07B0557B53D302F75A6911D3E0 /* Headers */,
+				44F2796D095E665295F19B8A5C4A087B /* Sources */,
+				547F42F0EF8C3835DE3209C84C9CFE93 /* Frameworks */,
+				9B43C801768FD7516B4D714BA754365E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				757B6429DD8087889C4253716FC9CBBF /* PBXTargetDependency */,
+				C19882382554BB9D12D0A54FFBD0E901 /* PBXTargetDependency */,
+				748C74954FEFCE44FD9F5C90CD564222 /* PBXTargetDependency */,
 			);
 			name = "Pods-eCameraLib_Example";
 			productName = "Pods-eCameraLib_Example";
-			productReference = D9306134AA76C84E6462BFB930624B25 /* Pods_eCameraLib_Example.framework */;
+			productReference = 3DD0A34C02D5F5CD2D3719AC8473D3D1 /* Pods_eCameraLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A1ABC79F313570B0B9352500A6ACDC49 /* eCameraLib-eCameraLib */ = {
@@ -314,8 +388,26 @@
 			);
 			name = "eCameraLib-eCameraLib";
 			productName = "eCameraLib-eCameraLib";
-			productReference = 17F980EFFD0B1774BEE98C6F979740BE /* eCameraLib.bundle */;
+			productReference = A26AFB0F9F0265168EC830928D2A470A /* eCameraLib.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		B47B0ADD46D34168495AE11C3822DE25 /* DQAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D229D0AAA5682E55C96627E18830019 /* Build configuration list for PBXNativeTarget "DQAlertView" */;
+			buildPhases = (
+				43C159414871F8D89E8FAA8FD1B0C8F3 /* Headers */,
+				6516A14957A94626F267546E4968AE23 /* Sources */,
+				FF2BC165A9E9F4CD1A91F161B06D017D /* Frameworks */,
+				48BBBA2B02E21E6E194BC4AE83BE8583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DQAlertView;
+			productName = DQAlertView;
+			productReference = 2D19D857922D0E576BC8048E33AC95D0 /* DQAlertView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -334,13 +426,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 862A3D46F4CE1F9C23409B085C88B8E4 /* Products */;
+			productRefGroup = EE1634C80CADD4E03A63EA8BD2BAADC7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				B47B0ADD46D34168495AE11C3822DE25 /* DQAlertView */,
 				133F2DCBD334A0B8DD0D25D0ABFF42E2 /* eCameraLib */,
 				A1ABC79F313570B0B9352500A6ACDC49 /* eCameraLib-eCameraLib */,
-				70B978C84C14BB74E9F19260F7C1E8CC /* Pods-eCameraLib_Example */,
+				48FFE3AE7EDB781B0F8CFBD11234F364 /* Pods-eCameraLib_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -354,7 +447,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A984BF31DC37B46186828FCCAE8F0F2 /* Resources */ = {
+		48BBBA2B02E21E6E194BC4AE83BE8583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B43C801768FD7516B4D714BA754365E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,18 +482,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18512ED7F8215692FACEDAE98F1B612E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0611E6EBB2CE93A303945DCA8552873C /* Pods-eCameraLib_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2917AA96CD8ED64014C8D1BE66A8FC8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F2796D095E665295F19B8A5C4A087B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82082DCF47454908AE4871047399631 /* Pods-eCameraLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6516A14957A94626F267546E4968AE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8D644A3BE6B33306DB9F2E8ACE880 /* DQAlertView-dummy.m in Sources */,
+				31FC699BE919800B585604E13745F815 /* DQAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,15 +524,53 @@
 			target = A1ABC79F313570B0B9352500A6ACDC49 /* eCameraLib-eCameraLib */;
 			targetProxy = 672F9FD28777D64BF85218AF557208CA /* PBXContainerItemProxy */;
 		};
-		757B6429DD8087889C4253716FC9CBBF /* PBXTargetDependency */ = {
+		748C74954FEFCE44FD9F5C90CD564222 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = eCameraLib;
 			target = 133F2DCBD334A0B8DD0D25D0ABFF42E2 /* eCameraLib */;
-			targetProxy = E8E743E802F8A175F554CA34968FDBD8 /* PBXContainerItemProxy */;
+			targetProxy = 3D83F1B3341677B2F1DD0581B905EE07 /* PBXContainerItemProxy */;
+		};
+		C19882382554BB9D12D0A54FFBD0E901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DQAlertView;
+			target = B47B0ADD46D34168495AE11C3822DE25 /* DQAlertView */;
+			targetProxy = 3A717D066CB79FAB77E0F527D28724AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01265C2E3AB9026F6EF1E2B1BAE489CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34DBA1D2D2EB1275C836CACFBB393017 /* DQAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DQAlertView/DQAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DQAlertView/DQAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DQAlertView/DQAlertView.modulemap";
+				PRODUCT_MODULE_NAME = DQAlertView;
+				PRODUCT_NAME = DQAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		05828AC28E5118370BF944521EBA35DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBD08B2C8E439B47B04EB83D50127876 /* eCameraLib.xcconfig */;
@@ -500,6 +647,40 @@
 			};
 			name = Release;
 		};
+		0B4243EA60B42A40B41CB9F8F82E8EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559BB2B5A50FA96F2EDDBC99E6C31BF5 /* Pods-eCameraLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1BA5A6D213F58A3CBB42BB40EF784742 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBD08B2C8E439B47B04EB83D50127876 /* eCameraLib.xcconfig */;
@@ -531,6 +712,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		27EEEBC39FCB5B1DAFF509B04AA80718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34DBA1D2D2EB1275C836CACFBB393017 /* DQAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DQAlertView/DQAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DQAlertView/DQAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DQAlertView/DQAlertView.modulemap";
+				PRODUCT_MODULE_NAME = DQAlertView;
+				PRODUCT_NAME = DQAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		3845853A983A833B35C2308C8FFDB0A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -578,40 +790,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		41584E1ACCC109EA26326E9DA3A369CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 559BB2B5A50FA96F2EDDBC99E6C31BF5 /* Pods-eCameraLib_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -677,7 +855,7 @@
 			};
 			name = Debug;
 		};
-		6ACBDDA6FC97474DF5249531B7CEA94C /* Debug */ = {
+		DDEB2445051C7BA4E3B4014575CA9CEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B415A102B919966C02CBF8FE2541E04 /* Pods-eCameraLib_Example.debug.xcconfig */;
 			buildSettings = {
@@ -713,20 +891,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2ADCAF6F948AB11FDF80690F43156DB4 /* Build configuration list for PBXNativeTarget "Pods-eCameraLib_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6ACBDDA6FC97474DF5249531B7CEA94C /* Debug */,
-				41584E1ACCC109EA26326E9DA3A369CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
 				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D229D0AAA5682E55C96627E18830019 /* Build configuration list for PBXNativeTarget "DQAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EEEBC39FCB5B1DAFF509B04AA80718 /* Debug */,
+				01265C2E3AB9026F6EF1E2B1BAE489CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0CA824BB64EA8B2899290CEFC9AE45 /* Build configuration list for PBXNativeTarget "Pods-eCameraLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEB2445051C7BA4E3B4014575CA9CEF /* Debug */,
+				0B4243EA60B42A40B41CB9F8F82E8EE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

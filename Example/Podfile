@@ -4,5 +4,5 @@ platform :ios, '8.0'
 
 target 'eCameraLib_Example' do
   pod 'eCameraLib', :path => '../'
-
+  pod 'DQAlertView'
 end

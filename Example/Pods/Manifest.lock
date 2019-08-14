@@ -1,16 +1,23 @@
 PODS:
+  - DQAlertView (1.2.1)
   - eCameraLib (0.1.2)
 
 DEPENDENCIES:
+  - DQAlertView
   - eCameraLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DQAlertView
 
 EXTERNAL SOURCES:
   eCameraLib:
     :path: "../"
 
 SPEC CHECKSUMS:
+  DQAlertView: 438c2799ae5437f2f9683f8a627314aa91eb5032
   eCameraLib: ce6d16dfe1069ba300661b018f7abd448245b251
 
-PODFILE CHECKSUM: 17de603ba7e7491555927333030df6a15f6c4d3b
+PODFILE CHECKSUM: 0bfb6a4965ad426debe9af6fdf8d465b7eeb8c5d
 
 COCOAPODS: 1.6.1

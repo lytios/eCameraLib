@@ -140,9 +140,6 @@
 - (void)navRightBtn_Click
 {
     eTakeImageNaVC *nav = (eTakeImageNaVC *)self.navigationController;
-//    if (nav.cancelBlock) {
-//        nav.cancelBlock();
-//    }
     [nav dismissViewControllerAnimated:YES completion:nil];
 }
 

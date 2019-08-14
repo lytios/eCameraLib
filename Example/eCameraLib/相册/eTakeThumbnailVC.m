@@ -12,6 +12,7 @@
 #import "eTakeCell.h"
 #import "eTakePhotoManager.h"
 #import "eTakeImageNaVC.h"
+#import "DQAlertView.h"
 
 @interface eTakeThumbnailVC ()<UICollectionViewDataSource,UICollectionViewDelegate,UIViewControllerPreviewingDelegate>
 
@@ -22,6 +23,7 @@
 /**所有滑动经过的indexPath的初始选择状态*/
 @property (nonatomic, strong) NSMutableDictionary<NSString *, NSNumber *> *dicOriSelectStatus;
 
+@property (nonatomic, strong) eTakeAVModel *model;
 @end
 
 @implementation eTakeThumbnailVC
@@ -132,14 +134,57 @@
 
     
     NSInteger index = indexPath.row;
-    eTakeAVModel *model = self.arrDataSources[index];
+    self.model = self.arrDataSources[index];
+    if (self.model.type == ZLAssetMediaTypeImage) {
+        [eTakePhotoManager requestImageForAsset:self.model.asset size:[self requestImageSize:self.model.asset]  progressHandler:^(double progress, NSError * _Nonnull error, BOOL * _Nonnull stop, NSDictionary * _Nonnull info) {
+        
+        } completion:^(UIImage * _Nonnull img, NSDictionary * _Nonnull info) {
+            [self dismissWithImg:img];
+        }];
+    }else if(self.model.type == ZLAssetMediaTypeVideo)
+    {
+        
+        [eTakePhotoManager requestVideoForAsset:self.model.asset progressHandler:^(double progress, NSError * _Nonnull error, BOOL * _Nonnull stop, NSDictionary * _Nonnull info) {
+            
+        } completion:^(AVPlayerItem * _Nonnull item, NSDictionary * _Nonnull info) {
+            [self dismissWithUrl:((AVURLAsset *)item.asset).URL];
+        }];
+    }
     
-//
-//    UIViewController *vc = [self getMatchVCWithModel:model];
-//    if (vc) {
-//        [self showViewController:vc sender:nil];
-//    }
+    
+    
+
+
 }
+- (void)dismissWithUrl:(NSURL *)url
+{
+    self.model.url =url;
+    
+    DQAlertView *alertView = [[DQAlertView alloc]initWithTitle:@"提示" message:[NSString stringWithFormat:@"收否选择此%@",self.model.type == ZLAssetMediaTypeImage?@"图片":@"视频"] cancelButtonTitle:@"取消" otherButtonTitle:@"确定"];
+    alertView.otherButtonAction = ^{
+        eTakeImageNaVC *nav = (eTakeImageNaVC *)self.navigationController;
+        nav.arrSelectedModels = [NSMutableArray arrayWithObject:self.model];
+        [self dismissViewControllerAnimated:YES completion:^{
+            nav.callSelectImageBlock(self.model);
+        }];
+    };
+    [alertView show];
+}
+
+- (void)dismissWithImg:(UIImage *)img
+{
+    self.model.img = img;
+    DQAlertView *alertView = [[DQAlertView alloc]initWithTitle:@"提示" message:[NSString stringWithFormat:@"收否选择此%@",self.model.type == ZLAssetMediaTypeImage?@"图片":@"视频"] cancelButtonTitle:@"取消" otherButtonTitle:@"确定"];
+    alertView.otherButtonAction = ^{
+        eTakeImageNaVC *nav = (eTakeImageNaVC *)self.navigationController;
+        nav.arrSelectedModels = [NSMutableArray arrayWithObject:self.model];
+        [self dismissViewControllerAnimated:YES completion:^{
+            nav.callSelectImageBlock(self.model);
+        }];
+    };
+    [alertView show];
+}
+
 - (void)scrollToBottom
 {
     if (self.arrDataSources.count > 0) {
@@ -174,5 +219,12 @@
 }
 
 
+- (CGSize)requestImageSize:(PHAsset *)asset
+{
+    CGFloat scale = 2;
+    CGFloat width = MIN(ViewWidth, 500);
+    CGSize size = CGSizeMake(width*scale, width*scale*asset.pixelHeight/asset.pixelWidth);
+    return size;
+}
 
 @end

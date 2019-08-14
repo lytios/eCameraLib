@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "etHeader.h"
-
+#import <Photos/PHPhotoLibrary.h>
 @class eTakeAVModel;
 NS_ASSUME_NONNULL_BEGIN
 
@@ -20,11 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) UIImage *navImg;
 
-
 /**
  点击确定选择照片回调
  */
-@property (nonatomic, copy) void (^callSelectImageBlock)(void);
+@property (nonatomic, copy) void (^callSelectImageBlock)(eTakeAVModel * model);
 
 @end
 

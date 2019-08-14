@@ -11,8 +11,6 @@
 		3E7254B82302521A0055FB9E /* zl_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254B62302521A0055FB9E /* zl_video@2x.png */; };
 		3E7254BF230252460055FB9E /* zl_videoView@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254BD230252460055FB9E /* zl_videoView@3x.png */; };
 		3E7254C0230252460055FB9E /* zl_videoView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254BE230252460055FB9E /* zl_videoView@2x.png */; };
-		3E7254C32302526B0055FB9E /* zl_livePhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254C12302526B0055FB9E /* zl_livePhoto@2x.png */; };
-		3E7254C42302526B0055FB9E /* zl_livePhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254C22302526B0055FB9E /* zl_livePhoto@3x.png */; };
 		3E7254C82302529C0055FB9E /* eTakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7254C62302529B0055FB9E /* eTakeCell.m */; };
 		3E7254CB230261720055FB9E /* zl_navBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254C9230261720055FB9E /* zl_navBack@3x.png */; };
 		3E7254CC230261720055FB9E /* zl_navBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254CA230261720055FB9E /* zl_navBack@2x.png */; };
@@ -45,12 +43,12 @@
 /* Begin PBXFileReference section */
 		0434DC003AE802065A8CB4D9 /* Pods-eCameraLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Example.release.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1DAC25ADA1F5966B010DB25C /* Pods-eCameraLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Tests/Pods-eCameraLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E6DC9272303EB5900D6136C /* zl_livePhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_livePhoto@3x.png"; sourceTree = "<group>"; };
+		3E6DC9282303EB5900D6136C /* zl_livePhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_livePhoto@2x.png"; sourceTree = "<group>"; };
 		3E7254B52302521A0055FB9E /* zl_video@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_video@3x.png"; sourceTree = "<group>"; };
 		3E7254B62302521A0055FB9E /* zl_video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_video@2x.png"; sourceTree = "<group>"; };
 		3E7254BD230252460055FB9E /* zl_videoView@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_videoView@3x.png"; sourceTree = "<group>"; };
 		3E7254BE230252460055FB9E /* zl_videoView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_videoView@2x.png"; sourceTree = "<group>"; };
-		3E7254C12302526B0055FB9E /* zl_livePhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zl_livePhoto@2x.png"; path = "../../../../../Downloads/ZLPhotoBrowser-master/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowser.bundle/zl_livePhoto@2x.png"; sourceTree = "<group>"; };
-		3E7254C22302526B0055FB9E /* zl_livePhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zl_livePhoto@3x.png"; path = "../../../../../Downloads/ZLPhotoBrowser-master/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowser.bundle/zl_livePhoto@3x.png"; sourceTree = "<group>"; };
 		3E7254C62302529B0055FB9E /* eTakeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eTakeCell.m; sourceTree = "<group>"; };
 		3E7254C72302529C0055FB9E /* eTakeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eTakeCell.h; sourceTree = "<group>"; };
 		3E7254C9230261720055FB9E /* zl_navBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_navBack@3x.png"; sourceTree = "<group>"; };
@@ -129,24 +127,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E9B20A423013A2B005782D0 /* 相册 */ = {
+		3E6DC93023040BF600D6136C /* 相册 */ = {
 			isa = PBXGroup;
 			children = (
-				3E7254CA230261720055FB9E /* zl_navBack@2x.png */,
-				3E7254C9230261720055FB9E /* zl_navBack@3x.png */,
-				3E7254C12302526B0055FB9E /* zl_livePhoto@2x.png */,
-				3E7254C22302526B0055FB9E /* zl_livePhoto@3x.png */,
-				3E7254BE230252460055FB9E /* zl_videoView@2x.png */,
-				3E7254BD230252460055FB9E /* zl_videoView@3x.png */,
-				3E7254B62302521A0055FB9E /* zl_video@2x.png */,
-				3E7254B52302521A0055FB9E /* zl_video@3x.png */,
+				3E6DC93223040C2F00D6136C /* 图片 */,
+				3E9B20B3230149B8005782D0 /* etHeader.h */,
 				3E7254C72302529C0055FB9E /* eTakeCell.h */,
 				3E7254C62302529B0055FB9E /* eTakeCell.m */,
-				3E9B20B3230149B8005782D0 /* etHeader.h */,
 				3E9B20AE23014488005782D0 /* eTakePhotoBrowserCell.h */,
 				3E9B20AF23014488005782D0 /* eTakePhotoBrowserCell.m */,
 				3E9B20B123014494005782D0 /* eTakePhotoBrowserCell.xib */,
-				3E9B20AC23014181005782D0 /* zl_defaultphoto.png */,
 				3E9B20A123013955005782D0 /* eTakeImageNaVC.h */,
 				3E9B20A223013955005782D0 /* eTakeImageNaVC.m */,
 				3E9B20A623013A59005782D0 /* eTakeAVModel.h */,
@@ -156,7 +146,23 @@
 				3E9B20B523015DE0005782D0 /* eTakeThumbnailVC.h */,
 				3E9B20B623015DE0005782D0 /* eTakeThumbnailVC.m */,
 			);
-			name = "相册";
+			path = "相册";
+			sourceTree = "<group>";
+		};
+		3E6DC93223040C2F00D6136C /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				3E9B20AC23014181005782D0 /* zl_defaultphoto.png */,
+				3E7254CA230261720055FB9E /* zl_navBack@2x.png */,
+				3E7254C9230261720055FB9E /* zl_navBack@3x.png */,
+				3E6DC9282303EB5900D6136C /* zl_livePhoto@2x.png */,
+				3E6DC9272303EB5900D6136C /* zl_livePhoto@3x.png */,
+				3E7254BE230252460055FB9E /* zl_videoView@2x.png */,
+				3E7254BD230252460055FB9E /* zl_videoView@3x.png */,
+				3E7254B62302521A0055FB9E /* zl_video@2x.png */,
+				3E7254B52302521A0055FB9E /* zl_video@3x.png */,
+			);
+			path = "图片";
 			sourceTree = "<group>";
 		};
 		3E9B20A523013A34005782D0 /* 拍照 */ = {
@@ -225,8 +231,8 @@
 		6003F593195388D20070C39A /* Example for eCameraLib */ = {
 			isa = PBXGroup;
 			children = (
+				3E6DC93023040BF600D6136C /* 相册 */,
 				3E9B20A523013A34005782D0 /* 拍照 */,
-				3E9B20A423013A2B005782D0 /* 相册 */,
 				3EDB499E22EAC78A0033557A /* customImg */,
 				3EDB499B22EAC7570033557A /* testVCCameraViewController.h */,
 				3EDB499C22EAC7570033557A /* testVCCameraViewController.m */,
@@ -398,9 +404,7 @@
 				3EDB499A22EAC7270033557A /* personShapeReverse@3x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				3EDB499522EAC71A0033557A /* personShape@2x.png in Resources */,
-				3E7254C32302526B0055FB9E /* zl_livePhoto@2x.png in Resources */,
 				3EDB499622EAC71A0033557A /* personShape@3x.png in Resources */,
-				3E7254C42302526B0055FB9E /* zl_livePhoto@3x.png in Resources */,
 				3E7254CB230261720055FB9E /* zl_navBack@3x.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -418,12 +422,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DQAlertView/DQAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/eCameraLib/eCameraLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DQAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/eCameraLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

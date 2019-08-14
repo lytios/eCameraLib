@@ -9,7 +9,7 @@
 #import "eCameraViewController.h"
 #import "testVCCameraViewController.h"
 #import "eTakeImageNaVC.h"
-#import <Photos/PHPhotoLibrary.h>
+
 @interface eCameraViewController ()
 
 @end
@@ -44,7 +44,7 @@
                 dispatch_async(dispatch_get_main_queue(), ^{
                     eTakeAlbumListVC *listVC =[[eTakeAlbumListVC alloc]initWithStyle:UITableViewStylePlain];
                     eTakeImageNaVC *nav =[[eTakeImageNaVC alloc]initWithRootViewController:listVC];
-                    [nav setCallSelectImageBlock:^{
+                    [nav setCallSelectImageBlock:^(eTakeAVModel * _Nonnull model) {
                         
                     }];
                     
@@ -60,8 +60,8 @@
     if (status == PHAuthorizationStatusAuthorized) {
         eTakeAlbumListVC *listVC =[[eTakeAlbumListVC alloc]initWithStyle:UITableViewStylePlain];
         eTakeImageNaVC *nav =[[eTakeImageNaVC alloc]initWithRootViewController:listVC];
-        [nav setCallSelectImageBlock:^{
-
+        [nav setCallSelectImageBlock:^(eTakeAVModel * _Nonnull model) {
+            
         }];
         [self showDetailViewController:nav sender:nil];
     }

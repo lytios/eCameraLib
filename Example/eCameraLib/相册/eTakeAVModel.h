@@ -19,8 +19,11 @@ typedef NS_ENUM(NSUInteger, eTakeAssetMediaType) {
 
 @interface eTakeAVModel : NSObject
 
-//图片url
+//视频url
 @property (nonatomic, strong) NSURL *url;
+
+//视频url
+@property (nonatomic, strong) UIImage *img;
 
 //asset对象
 @property (nonatomic, strong) PHAsset *asset;
