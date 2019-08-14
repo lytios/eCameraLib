@@ -8,6 +8,8 @@
 
 #import "eCameraViewController.h"
 #import "testVCCameraViewController.h"
+#import "eTakeImageNaVC.h"
+#import <Photos/PHPhotoLibrary.h>
 @interface eCameraViewController ()
 
 @end
@@ -27,6 +29,45 @@
     };
    [self showDetailViewController:cameraVc sender:nil] ;
 }
+
+- (IBAction)takeImgList:(UIButton *)sender {
+    
+    PHAuthorizationStatus status = [PHPhotoLibrary authorizationStatus];
+    if (status == PHAuthorizationStatusRestricted ||
+        status == PHAuthorizationStatusDenied) {
+        
+        return;
+    } else if (status == PHAuthorizationStatusNotDetermined) {
+        [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+            
+            if (PHAuthorizationStatusAuthorized == status) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    eTakeAlbumListVC *listVC =[[eTakeAlbumListVC alloc]initWithStyle:UITableViewStylePlain];
+                    eTakeImageNaVC *nav =[[eTakeImageNaVC alloc]initWithRootViewController:listVC];
+                    [nav setCallSelectImageBlock:^{
+                        
+                    }];
+                    
+                    [self showDetailViewController:nav sender:nil];
+                });
+            }
+           
+           
+        }];
+        
+
+    }
+    if (status == PHAuthorizationStatusAuthorized) {
+        eTakeAlbumListVC *listVC =[[eTakeAlbumListVC alloc]initWithStyle:UITableViewStylePlain];
+        eTakeImageNaVC *nav =[[eTakeImageNaVC alloc]initWithRootViewController:listVC];
+        [nav setCallSelectImageBlock:^{
+
+        }];
+        [self showDetailViewController:nav sender:nil];
+    }
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {

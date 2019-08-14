@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EBE34AD22F01AE30037B268 /* eTakeCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE34AC22F01AE30037B268 /* eTakeCameraViewController.m */; };
-		3ECF84C722EADE48004E16BB /* eTakeCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF84C622EADE48004E16BB /* eTakeCameraViewController.xib */; };
-		3EDB498622EAB72E0033557A /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB497C22EAB72E0033557A /* arrow_down@2x.png */; };
-		3EDB498722EAB72E0033557A /* arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB497D22EAB72E0033557A /* arrow_down@3x.png */; };
-		3EDB498822EAB72E0033557A /* focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB497E22EAB72E0033557A /* focus@2x.png */; };
-		3EDB498922EAB72E0033557A /* focus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB497F22EAB72E0033557A /* focus@3x.png */; };
-		3EDB498A22EAB72E0033557A /* retake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB498022EAB72E0033557A /* retake@2x.png */; };
-		3EDB498B22EAB72E0033557A /* retake@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB498122EAB72E0033557A /* retake@3x.png */; };
-		3EDB498C22EAB72E0033557A /* takeok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB498222EAB72E0033557A /* takeok@2x.png */; };
-		3EDB498D22EAB72E0033557A /* takeok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB498322EAB72E0033557A /* takeok@3x.png */; };
-		3EDB498E22EAB72E0033557A /* toggle_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB498422EAB72E0033557A /* toggle_camera@2x.png */; };
-		3EDB498F22EAB72E0033557A /* toggle_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB498522EAB72E0033557A /* toggle_camera@3x.png */; };
+		3E7254B72302521A0055FB9E /* zl_video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254B52302521A0055FB9E /* zl_video@3x.png */; };
+		3E7254B82302521A0055FB9E /* zl_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254B62302521A0055FB9E /* zl_video@2x.png */; };
+		3E7254BF230252460055FB9E /* zl_videoView@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254BD230252460055FB9E /* zl_videoView@3x.png */; };
+		3E7254C0230252460055FB9E /* zl_videoView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254BE230252460055FB9E /* zl_videoView@2x.png */; };
+		3E7254C32302526B0055FB9E /* zl_livePhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254C12302526B0055FB9E /* zl_livePhoto@2x.png */; };
+		3E7254C42302526B0055FB9E /* zl_livePhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254C22302526B0055FB9E /* zl_livePhoto@3x.png */; };
+		3E7254C82302529C0055FB9E /* eTakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7254C62302529B0055FB9E /* eTakeCell.m */; };
+		3E7254CB230261720055FB9E /* zl_navBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254C9230261720055FB9E /* zl_navBack@3x.png */; };
+		3E7254CC230261720055FB9E /* zl_navBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7254CA230261720055FB9E /* zl_navBack@2x.png */; };
+		3E9B20A323013955005782D0 /* eTakeImageNaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B20A223013955005782D0 /* eTakeImageNaVC.m */; };
+		3E9B20A823013A59005782D0 /* eTakeAVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B20A723013A59005782D0 /* eTakeAVModel.m */; };
+		3E9B20AB23013E42005782D0 /* eTakePhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B20AA23013E42005782D0 /* eTakePhotoManager.m */; };
+		3E9B20AD23014181005782D0 /* zl_defaultphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9B20AC23014181005782D0 /* zl_defaultphoto.png */; };
+		3E9B20B023014488005782D0 /* eTakePhotoBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B20AF23014488005782D0 /* eTakePhotoBrowserCell.m */; };
+		3E9B20B223014494005782D0 /* eTakePhotoBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E9B20B123014494005782D0 /* eTakePhotoBrowserCell.xib */; };
+		3E9B20B4230149B8005782D0 /* etHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B20B3230149B8005782D0 /* etHeader.h */; };
+		3E9B20B723015DE0005782D0 /* eTakeThumbnailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B20B623015DE0005782D0 /* eTakeThumbnailVC.m */; };
 		3EDB499522EAC71A0033557A /* personShape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB499322EAC71A0033557A /* personShape@2x.png */; };
 		3EDB499622EAC71A0033557A /* personShape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB499422EAC71A0033557A /* personShape@3x.png */; };
 		3EDB499922EAC7270033557A /* personShapeReverse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB499722EAC7270033557A /* personShapeReverse@2x.png */; };
@@ -40,21 +45,33 @@
 /* Begin PBXFileReference section */
 		0434DC003AE802065A8CB4D9 /* Pods-eCameraLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Example.release.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Example/Pods-eCameraLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1DAC25ADA1F5966B010DB25C /* Pods-eCameraLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCameraLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-eCameraLib_Tests/Pods-eCameraLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E7254B52302521A0055FB9E /* zl_video@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_video@3x.png"; sourceTree = "<group>"; };
+		3E7254B62302521A0055FB9E /* zl_video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_video@2x.png"; sourceTree = "<group>"; };
+		3E7254BD230252460055FB9E /* zl_videoView@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_videoView@3x.png"; sourceTree = "<group>"; };
+		3E7254BE230252460055FB9E /* zl_videoView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_videoView@2x.png"; sourceTree = "<group>"; };
+		3E7254C12302526B0055FB9E /* zl_livePhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zl_livePhoto@2x.png"; path = "../../../../../Downloads/ZLPhotoBrowser-master/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowser.bundle/zl_livePhoto@2x.png"; sourceTree = "<group>"; };
+		3E7254C22302526B0055FB9E /* zl_livePhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zl_livePhoto@3x.png"; path = "../../../../../Downloads/ZLPhotoBrowser-master/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowser.bundle/zl_livePhoto@3x.png"; sourceTree = "<group>"; };
+		3E7254C62302529B0055FB9E /* eTakeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eTakeCell.m; sourceTree = "<group>"; };
+		3E7254C72302529C0055FB9E /* eTakeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eTakeCell.h; sourceTree = "<group>"; };
+		3E7254C9230261720055FB9E /* zl_navBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_navBack@3x.png"; sourceTree = "<group>"; };
+		3E7254CA230261720055FB9E /* zl_navBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zl_navBack@2x.png"; sourceTree = "<group>"; };
+		3E9B20A123013955005782D0 /* eTakeImageNaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eTakeImageNaVC.h; sourceTree = "<group>"; };
+		3E9B20A223013955005782D0 /* eTakeImageNaVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eTakeImageNaVC.m; sourceTree = "<group>"; };
+		3E9B20A623013A59005782D0 /* eTakeAVModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eTakeAVModel.h; sourceTree = "<group>"; };
+		3E9B20A723013A59005782D0 /* eTakeAVModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eTakeAVModel.m; sourceTree = "<group>"; };
+		3E9B20A923013E42005782D0 /* eTakePhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eTakePhotoManager.h; sourceTree = "<group>"; };
+		3E9B20AA23013E42005782D0 /* eTakePhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eTakePhotoManager.m; sourceTree = "<group>"; };
+		3E9B20AC23014181005782D0 /* zl_defaultphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zl_defaultphoto.png; sourceTree = "<group>"; };
+		3E9B20AE23014488005782D0 /* eTakePhotoBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eTakePhotoBrowserCell.h; sourceTree = "<group>"; };
+		3E9B20AF23014488005782D0 /* eTakePhotoBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eTakePhotoBrowserCell.m; sourceTree = "<group>"; };
+		3E9B20B123014494005782D0 /* eTakePhotoBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = eTakePhotoBrowserCell.xib; sourceTree = "<group>"; };
+		3E9B20B3230149B8005782D0 /* etHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = etHeader.h; sourceTree = "<group>"; };
+		3E9B20B523015DE0005782D0 /* eTakeThumbnailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eTakeThumbnailVC.h; sourceTree = "<group>"; };
+		3E9B20B623015DE0005782D0 /* eTakeThumbnailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eTakeThumbnailVC.m; sourceTree = "<group>"; };
 		3EBE34AB22F01AE20037B268 /* eTakeCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eTakeCameraViewController.h; sourceTree = "<group>"; };
 		3EBE34AC22F01AE30037B268 /* eTakeCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eTakeCameraViewController.m; sourceTree = "<group>"; };
-		3ECF84C622EADE48004E16BB /* eTakeCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = eTakeCameraViewController.xib; path = ../../eCameraLib/Assets/eTakeCameraViewController.xib; sourceTree = "<group>"; };
 		3EDB493522E9AB170033557A /* eCameraLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCameraLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDB493722E9AB170033557A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EDB497C22EAB72E0033557A /* arrow_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down@2x.png"; sourceTree = "<group>"; };
-		3EDB497D22EAB72E0033557A /* arrow_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down@3x.png"; sourceTree = "<group>"; };
-		3EDB497E22EAB72E0033557A /* focus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus@2x.png"; sourceTree = "<group>"; };
-		3EDB497F22EAB72E0033557A /* focus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus@3x.png"; sourceTree = "<group>"; };
-		3EDB498022EAB72E0033557A /* retake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retake@2x.png"; sourceTree = "<group>"; };
-		3EDB498122EAB72E0033557A /* retake@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retake@3x.png"; sourceTree = "<group>"; };
-		3EDB498222EAB72E0033557A /* takeok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takeok@2x.png"; sourceTree = "<group>"; };
-		3EDB498322EAB72E0033557A /* takeok@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takeok@3x.png"; sourceTree = "<group>"; };
-		3EDB498422EAB72E0033557A /* toggle_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toggle_camera@2x.png"; sourceTree = "<group>"; };
-		3EDB498522EAB72E0033557A /* toggle_camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toggle_camera@3x.png"; sourceTree = "<group>"; };
 		3EDB499322EAC71A0033557A /* personShape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personShape@2x.png"; sourceTree = "<group>"; };
 		3EDB499422EAC71A0033557A /* personShape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personShape@3x.png"; sourceTree = "<group>"; };
 		3EDB499722EAC7270033557A /* personShapeReverse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personShapeReverse@2x.png"; sourceTree = "<group>"; };
@@ -112,30 +129,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E9B20A423013A2B005782D0 /* 相册 */ = {
+			isa = PBXGroup;
+			children = (
+				3E7254CA230261720055FB9E /* zl_navBack@2x.png */,
+				3E7254C9230261720055FB9E /* zl_navBack@3x.png */,
+				3E7254C12302526B0055FB9E /* zl_livePhoto@2x.png */,
+				3E7254C22302526B0055FB9E /* zl_livePhoto@3x.png */,
+				3E7254BE230252460055FB9E /* zl_videoView@2x.png */,
+				3E7254BD230252460055FB9E /* zl_videoView@3x.png */,
+				3E7254B62302521A0055FB9E /* zl_video@2x.png */,
+				3E7254B52302521A0055FB9E /* zl_video@3x.png */,
+				3E7254C72302529C0055FB9E /* eTakeCell.h */,
+				3E7254C62302529B0055FB9E /* eTakeCell.m */,
+				3E9B20B3230149B8005782D0 /* etHeader.h */,
+				3E9B20AE23014488005782D0 /* eTakePhotoBrowserCell.h */,
+				3E9B20AF23014488005782D0 /* eTakePhotoBrowserCell.m */,
+				3E9B20B123014494005782D0 /* eTakePhotoBrowserCell.xib */,
+				3E9B20AC23014181005782D0 /* zl_defaultphoto.png */,
+				3E9B20A123013955005782D0 /* eTakeImageNaVC.h */,
+				3E9B20A223013955005782D0 /* eTakeImageNaVC.m */,
+				3E9B20A623013A59005782D0 /* eTakeAVModel.h */,
+				3E9B20A723013A59005782D0 /* eTakeAVModel.m */,
+				3E9B20A923013E42005782D0 /* eTakePhotoManager.h */,
+				3E9B20AA23013E42005782D0 /* eTakePhotoManager.m */,
+				3E9B20B523015DE0005782D0 /* eTakeThumbnailVC.h */,
+				3E9B20B623015DE0005782D0 /* eTakeThumbnailVC.m */,
+			);
+			name = "相册";
+			sourceTree = "<group>";
+		};
+		3E9B20A523013A34005782D0 /* 拍照 */ = {
+			isa = PBXGroup;
+			children = (
+				3EBE34AB22F01AE20037B268 /* eTakeCameraViewController.h */,
+				3EBE34AC22F01AE30037B268 /* eTakeCameraViewController.m */,
+			);
+			name = "拍照";
+			sourceTree = "<group>";
+		};
 		3EDB493622E9AB170033557A /* eCameraLib */ = {
 			isa = PBXGroup;
 			children = (
 				3EDB493722E9AB170033557A /* Info.plist */,
 			);
 			path = eCameraLib;
-			sourceTree = "<group>";
-		};
-		3EDB497B22EAB72E0033557A /* resource */ = {
-			isa = PBXGroup;
-			children = (
-				3ECF84C622EADE48004E16BB /* eTakeCameraViewController.xib */,
-				3EDB497C22EAB72E0033557A /* arrow_down@2x.png */,
-				3EDB497D22EAB72E0033557A /* arrow_down@3x.png */,
-				3EDB497E22EAB72E0033557A /* focus@2x.png */,
-				3EDB497F22EAB72E0033557A /* focus@3x.png */,
-				3EDB498022EAB72E0033557A /* retake@2x.png */,
-				3EDB498122EAB72E0033557A /* retake@3x.png */,
-				3EDB498222EAB72E0033557A /* takeok@2x.png */,
-				3EDB498322EAB72E0033557A /* takeok@3x.png */,
-				3EDB498422EAB72E0033557A /* toggle_camera@2x.png */,
-				3EDB498522EAB72E0033557A /* toggle_camera@3x.png */,
-			);
-			path = resource;
 			sourceTree = "<group>";
 		};
 		3EDB499E22EAC78A0033557A /* customImg */ = {
@@ -152,7 +190,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				3EDB497B22EAB72E0033557A /* resource */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for eCameraLib */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -188,8 +225,8 @@
 		6003F593195388D20070C39A /* Example for eCameraLib */ = {
 			isa = PBXGroup;
 			children = (
-				3EBE34AB22F01AE20037B268 /* eTakeCameraViewController.h */,
-				3EBE34AC22F01AE30037B268 /* eTakeCameraViewController.m */,
+				3E9B20A523013A34005782D0 /* 拍照 */,
+				3E9B20A423013A2B005782D0 /* 相册 */,
 				3EDB499E22EAC78A0033557A /* customImg */,
 				3EDB499B22EAC7570033557A /* testVCCameraViewController.h */,
 				3EDB499C22EAC7570033557A /* testVCCameraViewController.m */,
@@ -341,16 +378,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EDB498C22EAB72E0033557A /* takeok@2x.png in Resources */,
-				3EDB498622EAB72E0033557A /* arrow_down@2x.png in Resources */,
-				3EDB498E22EAB72E0033557A /* toggle_camera@2x.png in Resources */,
-				3EDB498D22EAB72E0033557A /* takeok@3x.png in Resources */,
-				3EDB498A22EAB72E0033557A /* retake@2x.png in Resources */,
-				3EDB498722EAB72E0033557A /* arrow_down@3x.png in Resources */,
-				3EDB498F22EAB72E0033557A /* toggle_camera@3x.png in Resources */,
-				3EDB498B22EAB72E0033557A /* retake@3x.png in Resources */,
-				3EDB498922EAB72E0033557A /* focus@3x.png in Resources */,
-				3EDB498822EAB72E0033557A /* focus@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,13 +386,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				3E9B20B223014494005782D0 /* eTakePhotoBrowserCell.xib in Resources */,
+				3E9B20AD23014181005782D0 /* zl_defaultphoto.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				3E7254BF230252460055FB9E /* zl_videoView@3x.png in Resources */,
+				3E7254CC230261720055FB9E /* zl_navBack@2x.png in Resources */,
+				3E7254B82302521A0055FB9E /* zl_video@2x.png in Resources */,
+				3E7254C0230252460055FB9E /* zl_videoView@2x.png in Resources */,
+				3E7254B72302521A0055FB9E /* zl_video@3x.png in Resources */,
 				3EDB499922EAC7270033557A /* personShapeReverse@2x.png in Resources */,
 				3EDB499A22EAC7270033557A /* personShapeReverse@3x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				3ECF84C722EADE48004E16BB /* eTakeCameraViewController.xib in Resources */,
 				3EDB499522EAC71A0033557A /* personShape@2x.png in Resources */,
+				3E7254C32302526B0055FB9E /* zl_livePhoto@2x.png in Resources */,
 				3EDB499622EAC71A0033557A /* personShape@3x.png in Resources */,
+				3E7254C42302526B0055FB9E /* zl_livePhoto@3x.png in Resources */,
+				3E7254CB230261720055FB9E /* zl_navBack@3x.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,10 +467,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E9B20AB23013E42005782D0 /* eTakePhotoManager.m in Sources */,
+				3E9B20B4230149B8005782D0 /* etHeader.h in Sources */,
 				3EDB499D22EAC7570033557A /* testVCCameraViewController.m in Sources */,
 				6003F59E195388D20070C39A /* eCameraAppDelegate.m in Sources */,
-				3EBE34AD22F01AE30037B268 /* eTakeCameraViewController.m in Sources */,
+				3E9B20B023014488005782D0 /* eTakePhotoBrowserCell.m in Sources */,
 				6003F5A7195388D20070C39A /* eCameraViewController.m in Sources */,
+				3E9B20A823013A59005782D0 /* eTakeAVModel.m in Sources */,
+				3E9B20A323013955005782D0 /* eTakeImageNaVC.m in Sources */,
+				3E7254C82302529C0055FB9E /* eTakeCell.m in Sources */,
+				3E9B20B723015DE0005782D0 /* eTakeThumbnailVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

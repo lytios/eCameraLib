@@ -1,5 +1,5 @@
 PODS:
-  - eCameraLib (0.1.1)
+  - eCameraLib (0.1.2)
 
 DEPENDENCIES:
   - eCameraLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  eCameraLib: 7d0217a12e799b8a36c607c03fd372184367d012
+  eCameraLib: ce6d16dfe1069ba300661b018f7abd448245b251
 
 PODFILE CHECKSUM: 17de603ba7e7491555927333030df6a15f6c4d3b
 
