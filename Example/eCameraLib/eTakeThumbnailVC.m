@@ -41,12 +41,13 @@
 
 - (void)initNavBtn
 {
-    
-    self.navigationController.navigationItem.leftBarButtonItem =[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"zl_navBack"] style:UIBarButtonItemStyleDone target:nil action:nil];
-    //[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"zl_navBack"] style:UIBarButtonItemStyleDone target:nil action:nil];
-    
-    //backBarButtonItem =  [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"zl_navBack"] style:UIBarButtonItemStyleDone target:nil action:nil];
-    
+    eTakeImageNaVC *nav =(eTakeImageNaVC *)self.navigationController;
+    UIButton *leftbtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    leftbtn.frame = CGRectMake(0, 0, 50, 44);
+    [leftbtn setImage:[UIImage imageNamed:@"zl_navBack"] forState:UIControlStateNormal];
+    [leftbtn addTarget:self action:@selector(navLeftBtn_Click) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.leftBarButtonItem =[[UIBarButtonItem alloc] initWithCustomView:leftbtn];
+    leftbtn.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 30);
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(0, 0, 50, 44);
     btn.titleLabel.font = [UIFont systemFontOfSize:16];
@@ -61,6 +62,10 @@
 {
     eTakeImageNaVC *nav = (eTakeImageNaVC *)self.navigationController;
     [nav dismissViewControllerAnimated:YES completion:nil];
+}
+- (void)navLeftBtn_Click
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)setupCollectionView
