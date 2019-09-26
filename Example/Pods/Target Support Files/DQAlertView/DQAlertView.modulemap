@@ -1,0 +1,6 @@
+framework module DQAlertView {
+  umbrella header "DQAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

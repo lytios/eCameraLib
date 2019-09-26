@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="eTakeCameraViewController">
+            <connections>
+                <outlet property="bottomView" destination="E6s-Xd-rLu" id="KDy-8S-Bwh"/>
+                <outlet property="cancelButton" destination="Jnu-mb-gAa" id="FUd-nP-cge"/>
+                <outlet property="cancelButtonAlignX" destination="OEc-Wv-M7X" id="dYI-sU-XaR"/>
+                <outlet property="dismissButton" destination="hPn-ln-Lt3" id="xh3-bd-FPI"/>
+                <outlet property="doneButton" destination="T2e-ke-dUV" id="vSO-Mb-eeu"/>
+                <outlet property="doneButtonAlignX" destination="7Ga-F5-4Eb" id="RMG-bi-dn8"/>
+                <outlet property="focusCursorImageView" destination="EXe-zr-F6O" id="aGh-ZF-pfZ"/>
+                <outlet property="topView" destination="p2i-fF-l7j" id="aNL-sI-nBh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPn-ln-Lt3">
+                    <rect key="frame" x="60" y="542" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="4Cy-6Y-600"/>
+                        <constraint firstAttribute="height" constant="25" id="lGU-Z0-hc6"/>
+                    </constraints>
+                    <state key="normal" image="arrow_down.png"/>
+                    <connections>
+                        <action selector="dismissButtonAction:" destination="-1" eventType="touchUpInside" id="MOf-oy-NuZ"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="focus.png" translatesAutoresizingMaskIntoConstraints="NO" id="EXe-zr-F6O">
+                    <rect key="frame" x="147.5" y="293.5" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="Zr5-3c-YT2"/>
+                        <constraint firstAttribute="width" constant="80" id="Zu4-eZ-vVc"/>
+                    </constraints>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2e-ke-dUV">
+                    <rect key="frame" x="157.5" y="524.5" width="60" height="60"/>
+                    <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="0.9021832191780822" colorSpace="calibratedRGB"/>
+                    <state key="normal" image="takeok.png"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="doneButtonAction:" destination="-1" eventType="touchUpInside" id="0gY-T4-IP6"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnu-mb-gAa">
+                    <rect key="frame" x="157.5" y="524.5" width="60" height="60"/>
+                    <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="0.9021832191780822" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="39B-8I-Mpg"/>
+                        <constraint firstAttribute="width" constant="60" id="Oq3-Mh-ftw"/>
+                    </constraints>
+                    <state key="normal" image="retake.png"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="cancelButtonAction:" destination="-1" eventType="touchUpInside" id="UbZ-f2-Vk2"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6s-Xd-rLu">
+                    <rect key="frame" x="157.5" y="524.5" width="60" height="60"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p2i-fF-l7j">
+                            <rect key="frame" x="9" y="9" width="42" height="42"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="0.9021832191780822" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="p2i-fF-l7j" firstAttribute="top" secondItem="E6s-Xd-rLu" secondAttribute="top" constant="9" id="2OG-36-dFm"/>
+                        <constraint firstAttribute="trailing" secondItem="p2i-fF-l7j" secondAttribute="trailing" constant="9" id="FAb-CL-RyH"/>
+                        <constraint firstItem="p2i-fF-l7j" firstAttribute="leading" secondItem="E6s-Xd-rLu" secondAttribute="leading" constant="9" id="NSe-IK-Drc"/>
+                        <constraint firstAttribute="bottom" secondItem="p2i-fF-l7j" secondAttribute="bottom" constant="9" id="rFo-6g-XbK"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="0wg-5F-NkA" appends="YES" id="dW1-Vt-keb"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="hPn-ln-Lt3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="4wb-iw-YID"/>
+                <constraint firstItem="E6s-Xd-rLu" firstAttribute="width" secondItem="Jnu-mb-gAa" secondAttribute="width" id="5Ki-ld-BDi"/>
+                <constraint firstItem="E6s-Xd-rLu" firstAttribute="centerX" secondItem="T2e-ke-dUV" secondAttribute="centerX" id="7Ga-F5-4Eb"/>
+                <constraint firstItem="T2e-ke-dUV" firstAttribute="width" secondItem="Jnu-mb-gAa" secondAttribute="width" id="MS0-xF-PLA"/>
+                <constraint firstItem="E6s-Xd-rLu" firstAttribute="centerX" secondItem="Jnu-mb-gAa" secondAttribute="centerX" id="OEc-Wv-M7X"/>
+                <constraint firstAttribute="bottom" secondItem="hPn-ln-Lt3" secondAttribute="bottom" constant="100" id="QK3-WP-eyp"/>
+                <constraint firstItem="hPn-ln-Lt3" firstAttribute="centerY" secondItem="E6s-Xd-rLu" secondAttribute="centerY" id="Rv7-ja-jBT"/>
+                <constraint firstItem="Jnu-mb-gAa" firstAttribute="height" secondItem="T2e-ke-dUV" secondAttribute="height" id="Y0P-S7-oBq"/>
+                <constraint firstItem="E6s-Xd-rLu" firstAttribute="height" secondItem="Jnu-mb-gAa" secondAttribute="height" id="kLd-tp-KG3"/>
+                <constraint firstItem="EXe-zr-F6O" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mDf-KH-8Uz"/>
+                <constraint firstItem="E6s-Xd-rLu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rON-Us-Q8g"/>
+                <constraint firstItem="E6s-Xd-rLu" firstAttribute="centerY" secondItem="Jnu-mb-gAa" secondAttribute="centerY" id="tqy-GK-fEa"/>
+                <constraint firstItem="EXe-zr-F6O" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="vLQ-th-Zvr"/>
+                <constraint firstItem="T2e-ke-dUV" firstAttribute="centerY" secondItem="Jnu-mb-gAa" secondAttribute="centerY" id="x3o-ZZ-ngz"/>
+            </constraints>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="WNV-qx-VRS" appends="YES" id="7Vj-8G-4yf"/>
+            </connections>
+            <point key="canvasLocation" x="39.200000000000003" y="46.326836581709152"/>
+        </view>
+        <tapGestureRecognizer id="0wg-5F-NkA">
+            <connections>
+                <action selector="takPicAction:" destination="-1" id="1DG-GE-md1"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="WNV-qx-VRS">
+            <connections>
+                <action selector="adjustFocusPoint:" destination="-1" id="4MY-Nb-P41"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="arrow_down.png" width="40" height="40"/>
+        <image name="focus.png" width="80" height="81"/>
+        <image name="retake.png" width="30" height="30"/>
+        <image name="takeok.png" width="30" height="30"/>
+    </resources>
+</document>
