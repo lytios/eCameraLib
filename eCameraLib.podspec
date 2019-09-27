@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'eCameraLib'
-  s.version          = '0.1.2'
+  s.version          = '1.0.0'
   s.summary          = '惠荣e分期配合拍照系列工具 需搭配类方法进行配置'
 
 # This description is used to generate tags and improve search results.
